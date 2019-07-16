@@ -6,22 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Toggle Switch - Javascript</title>
-  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <form action="">
-    <label for="work">Work
+  <form>
+    <label class="switch">
+      Work
       <input type="checkbox" name="work" id="work" />
+      <span class="slider round"></span>
     </label>
-    <label for="life">Social Life
-      <input type="checkbox" name="life" id="life" />
+    <label class="switch">
+      Social Life
+      <input type="checkbox" name="life" id="life"/>
+      <span class="slider round"></span>
     </label>
-    <label for="sleep">Sleep
+    <label class="switch">Sleep
       <input type="checkbox" name="sleep" id="sleep" />
-    </label>
+      <span class="slider round"></span>
+    </label><br>
   </form>
-
   <script src="script.js"></script>
 </body>
 
