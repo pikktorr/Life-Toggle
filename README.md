@@ -1,1 +1,3 @@
-# Choose between Work, Social Life and/or Sleep
+# One have to choose between coding, social life and sleeping. Can't do it all...
+
+![alt text](./img/cant-do-it-all-small.png)

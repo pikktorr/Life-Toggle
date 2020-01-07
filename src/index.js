@@ -17,5 +17,4 @@ form.addEventListener('change', (event) => {
     let removed = array.shift();
     removed.checked = false;
   }
-  console.log(array);
 });

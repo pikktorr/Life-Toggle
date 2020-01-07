@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Can't do it all</title>
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Toggle Switch - Javascript</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <form>
-    <label class="switch">
-      Work
-      <input type="checkbox" name="work" id="work" />
-      <span class="slider round"></span>
-    </label>
-    <label class="switch">
-      Social Life
-      <input type="checkbox" name="life" id="life"/>
-      <span class="slider round"></span>
-    </label>
-    <label class="switch">Sleep
-      <input type="checkbox" name="sleep" id="sleep" />
-      <span class="slider round"></span>
-    </label><br>
-  </form>
-  <script src="script.js"></script>
-</body>
-
+  <body>
+    <form>
+      <div class="switch">
+        <label>
+          <p>Coding</p>
+          <input type="checkbox" />
+          <span class="lever"></span>
+        </label>
+      </div>
+      <div class="switch">
+        <label>
+          <p>Social Life</p>
+          <input type="checkbox" />
+          <span class="lever"></span>
+        </label>
+      </div>
+      <div class="switch">
+        <label>
+          <p>Sleeping</p>
+          <input type="checkbox" />
+          <span class="lever"></span>
+        </label>
+      </div>
+    </form>
+    <script src="./src/index.js"></script>
+  </body>
 </html>
